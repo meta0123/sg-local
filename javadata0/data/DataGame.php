@@ -1,0 +1,9 @@
+<?
+$OnLine=0;
+$Seq=array(0,0,0);
+$isOpen="";
+$isClose="1,2,3";
+$OpenBall=",,,,,,*,,,,,,*,,,,";
+$OpenTime="@@";
+$CloseTime="@@";
+?>

@@ -1,0 +1,15 @@
+<?php return array (
+  0 => '$v["notGroup"] = 0;',
+  1 => '$v["notAllow"] = 0;',
+  2 => '$v["follow"] = 0;',
+  3 => '$v["FLMessage"] = array();',
+  4 => '$v["NGMessage"] = array();',
+  5 => '$v["NAMessage"] = array();',
+  6 => '$v["followInValues"] = array();',
+  7 => 'if (($v[\'casino\'] == 1) && ($v[\'play\'] == 7) && ($v[\'type\'] == \'P\') && (count($v[\'pillers\']) >= 4) && ((! (countWhen(arrayCount($v[\'pillers\']), \'3\', \'>=\') >= \'3\')))) {$v[\'notGroup\'] = 1;; array_push($v[\'NGMessage\'], \'<span class=\\"vname-label\\">柱數</span>大於(含) <span class=\\"value-label\\">4</span> 柱時,  <span class=\\"point-label\\">至少</span> 任 <span class=\\"value-label\\">3</span> 柱, 號碼數必需大於(含) <span class=\\"value-label\\">3</span> 個號碼, 否則一律以<span class=\\"then-label\\">散單</span>計算\');}',
+  8 => 'if (($v[\'casino\'] == 3) && ($v[\'play\'] == 8) && ($v[\'type\'] == \'P\') && ((! (countWhen(arrayCount($v[\'pillers\']), \'2\', \'>=\') >= \'1\')))) {$v[\'notAllow\'] = 1;; array_push($v[\'NAMessage\'], \' <span class=\\"point-label\\">至少</span> 任 <span class=\\"value-label\\">1</span> 柱, 號碼數必需大於(含) <span class=\\"value-label\\">2</span> 個號碼, 否則一律<span class=\\"then-label\\">拒收</span>\');}',
+  9 => 'if (($v[\'casino\'] == 1) && ($v[\'play\'] == 7) && ($v[\'type\'] == \'P\') && (count($v[\'pillers\']) == 3) && (countWhen(arrayCount($v[\'pillers\']), \'2\', \'<=\') >= \'3\')) {$v[\'notGroup\'] = 1;; array_push($v[\'NGMessage\'], \'<span class=\\"vname-label\\">柱數</span>為 <span class=\\"value-label\\">3</span> 柱時,  任 <span class=\\"value-label\\">3</span> 柱的號碼數小於(含) <span class=\\"value-label\\">2</span> 個號碼時, 一律以<span class=\\"then-label\\">散單</span>計算\');}',
+  10 => 'if (($v[\'casino\'] == 3) && ($v[\'play\'] == 6) && ($v[\'type\'] == \'P\') && ((! (countWhen(arrayCount($v[\'pillers\']), \'2\', \'>=\') >= \'1\')))) {$v[\'notAllow\'] = 1;; array_push($v[\'NAMessage\'], \' <span class=\\"point-label\\">至少</span> 任 <span class=\\"value-label\\">1</span> 柱, 號碼數必需大於(含) <span class=\\"value-label\\">2</span> 個號碼, 否則一律<span class=\\"then-label\\">拒收</span>\');}',
+  11 => 'if (($v[\'casino\'] == 3) && ($v[\'play\'] == 7) && ($v[\'type\'] == \'B\') && (count($v[\'rightBalls\']) >= \'4\') && (count($v[\'rightBalls\']) <= \'19\')) {$v[\'follow\'] = 1;; array_push($v[\'FLMessage\'], \'<span class=\\"side-label\\">右邊</span>號碼數介於(包含) <span class=\\"value-label\\">4</span> 至 <span class=\\"value-label\\">19</span> 個號之間時<span class=\\"then-label\\">強制起漲</span>\');}',
+  12 => 'if (($v[\'casino\'] == 1) && ($v[\'play\'] == 7) && ($v[\'type\'] == \'P\') && (count(array_intersect($v[\'balls\'], array(22))))) {$v[\'follow\'] = 1;; array_push($v[\'FLMessage\'], \' 所有號碼中出現 [ <span class=\\"value-label\\">22</span> ] 時, <span class=\\"then-label\\">強制起漲</span> \'); $v[\'followInValues\'] = array_merge($v[\'followInValues\'], array(22));;}',
+);

@@ -1,0 +1,11 @@
+<?
+$stamp=99256;
+$aryC=array(0,array(),array(),array());
+$aryC[1]="1^*2^*3^";
+$aryC[2]="1^*2^*3^";
+$aryC[3]="1^*2^*3^";
+$aryBlock="1^*2^*3^";
+$aryFixed="1^0*2^0*3^0";
+$aryStarSP="1^0*2^0*3^0";
+$aryCTS="";
+?>
