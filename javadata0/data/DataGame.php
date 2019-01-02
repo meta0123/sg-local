@@ -1,5 +1,5 @@
 <?
-$OnLine=0;
+$OnLine=1;
 $Seq=array(0,0,0);
 $isOpen="";
 $isClose="1,2,3";

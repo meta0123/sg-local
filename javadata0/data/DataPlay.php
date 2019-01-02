@@ -1,0 +1,16 @@
+<?
+$Seq=array(0,0,0);
+$betLast=23812480;
+$Last=array(0,0,0,0,0,0,0,0,0,0,0);
+$betDel=0;
+$Del=array(0,0,0,0,0,0,0,0,0,0,0);
+$LastStarSP=0;
+$flgHex=array();
+$flgHex[0]=array(0,0,0,0,0,0,0,0,0,0,0);
+$flgHex[1]=array(0,0,0,0,0,0,0,0,0,0,0);
+$flgHex[2]=array(0,0,0,0,0,0,0,0,0,0,0);
+$flgHexDel=array();
+$flgHexDel[0]=array(0,0,0,0,0,0,0,0,0,0,0);
+$flgHexDel[1]=array(0,0,0,0,0,0,0,0,0,0,0);
+$flgHexDel[2]=array(0,0,0,0,0,0,0,0,0,0,0);
+?>
