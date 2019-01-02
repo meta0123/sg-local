@@ -20,7 +20,7 @@
 
 	require_once(__DIR__ . '/../SG1_c/classes/helper.php');
 	require_once(__DIR__ . '/../SG1_c/config/autoload.php');
-	DataCache::init(require(__DIR__ . '/config/datacache.php'));
+	DataCache::init(require('datacache.php'));
 
 	DB::setRDBResource($linkR);
 	DB::setWDBResource($linkW);
