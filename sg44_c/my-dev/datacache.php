@@ -9,7 +9,7 @@ return array(
         'enabled' => 1,
         'db' => 0,
         'name' => "sg{$sg}",
-        'host' => '192.168.99.70',
+        'host' => '127.0.0.1',
         'port' => 6379,
     ),
 

@@ -33,6 +33,7 @@ define("MNO","1");
 
 require_once(__DIR__ . '/../conf/autoload.php');
 DataCache::init(require(__DIR__ . '/datacache.php'));
+require_once(pathFunc ."classes/helper.php");
 
 include_once("config_ratio.php");
 
