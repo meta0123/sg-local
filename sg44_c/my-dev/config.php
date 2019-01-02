@@ -63,4 +63,8 @@ $flgWebMail = false;
 $flgNoLogo  = false;
 
 @include_once(Conf_Path."custom_set.php");
+
+require_once(__DIR__ . '/autoload.php');
+DataCache::init(require(__DIR__ . '/datacache.php'));
+require_once(FUNC_PATH ."classes/helper.php");
 ?>

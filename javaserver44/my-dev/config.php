@@ -17,3 +17,11 @@
 	define("ProgramPath", $pathJava);
 	define("ProgramName", "runServer.sh 44");
 	define("ServerName",  "triggerJava44.jar");
+
+	require_once(__DIR__ . '/../SG1_c/classes/helper.php');
+	require_once(__DIR__ . '/../SG1_c/config/autoload.php');
+	DataCache::init(require(__DIR__ . '/config/datacache.php'));
+
+	DB::setRDBResource($linkR);
+	DB::setWDBResource($linkW);
+	DB::setLDB("log44", "127.0.0.1", "root", "");

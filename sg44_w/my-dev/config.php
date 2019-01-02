@@ -31,6 +31,9 @@ define("urlStarBin",urlWF."SG1_w/starbin/");//writefile path
 
 define("MNO","1");
 
+require_once(__DIR__ . '/../conf/autoload.php');
+DataCache::init(require(__DIR__ . '/datacache.php'));
+
 include_once("config_ratio.php");
 
 //$ServerHost=$_SERVER["HTTP_HOST"];
