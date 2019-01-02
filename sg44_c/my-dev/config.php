@@ -13,11 +13,13 @@ define("siteName","SG44");//LOGIN
 define("SERVER_HOST",(!empty($_SERVER["HTTP_X_FORWARDED_HOST"]))? $_SERVER["HTTP_X_FORWARDED_HOST"]:$_SERVER["HTTP_HOST"]);
 
 $__check__IP = (!empty($_SERVER["HTTP_X_FORWARDED_FOR"]))? $_SERVER["HTTP_X_FORWARDED_FOR"]:$_SERVER["REMOTE_ADDR"];
-if(preg_match('/^(?:[0-9]{1,3}/.){3}[0-9]{1,3}$/', $__check__IP)) {
-	define("USER_IP",$__check__IP);
-}
-else {
-	die('jootpnsgmfwcissa');
+if (
+    filter_var($__check__IP, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) ||
+    filter_var($__check__IP, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)
+) {
+    define("USER_IP",$__check__IP);
+} else {
+    die('jootpnsgmfwcissa');
 }
 
 define("Home_Path","C:/Users/User/Documents/GitHub/");
