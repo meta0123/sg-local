@@ -1,7 +1,7 @@
 <?php
 
 # 必需設定 sg 編號
-$sg = null;
+$sg = 44;
 if ($sg === null) {
     exit('Error > datacache.php 必需設定 sg 編號！');
 }

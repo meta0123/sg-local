@@ -22,6 +22,6 @@
 	require_once(__DIR__ . '/../SG1_c/config/autoload.php');
 	DataCache::init(require('datacache.php'));
 
-	DB::setRDBResource($linkR);
-	DB::setWDBResource($linkW);
-	DB::setLDB("log44", "127.0.0.1", "root", "");
+	// DB::setRDBResource($linkR);
+	// DB::setWDBResource($linkW);
+	// DB::setLDB("log44", "127.0.0.1", "root", "");
