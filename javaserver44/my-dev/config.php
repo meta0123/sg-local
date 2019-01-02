@@ -9,7 +9,7 @@
 	mysql_select_db("sg44", $linkR);
 
 	$pathJava = "C:/Users/User/Documents/GitHub/javaserver44/";
-	define("pathData","D:/work/SG44/javadata0/");
+	define("pathData","C:/Users/User/Documents/Github/sg-local/javadata0/");
 
 	mysql_query("SET CHARACTER SET UTF8",$linkW);
 	mysql_query("SET CHARACTER SET UTF8",$linkR);

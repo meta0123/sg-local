@@ -8,7 +8,7 @@ define("SERVER_HOST",(!empty($_SERVER["HTTP_X_FORWARDED_HOST"]))? $_SERVER["HTTP
 define("USER_IP",(!empty($_SERVER["HTTP_X_FORWARDED_FOR"]))? $_SERVER["HTTP_X_FORWARDED_FOR"]:$_SERVER["REMOTE_ADDR"]);
 
 define("ROOT_PATH","C:/Users/User/Documents/GitHub/sg44_a/");
-define("JAVA_PATH","D:/work/SG44/javadata0");
+define("JAVA_PATH","C:/Users/User/Documents/Github/sg-local/javadata0");
 
 define("FUNC_PATH",ROOT_PATH."func/");
 define("Conf_Path",ROOT_PATH."conf/");

@@ -13,7 +13,7 @@ define("siteName","SG44");//LOGIN
 define("SERVER_HOST",(!empty($_SERVER["HTTP_X_FORWARDED_HOST"]))? $_SERVER["HTTP_X_FORWARDED_HOST"]:$_SERVER["HTTP_HOST"]);
 
 $__check__IP = (!empty($_SERVER["HTTP_X_FORWARDED_FOR"]))? $_SERVER["HTTP_X_FORWARDED_FOR"]:$_SERVER["REMOTE_ADDR"];
-if(preg_match('/^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/', $__check__IP)) {
+if(preg_match('/^(?:[0-9]{1,3}/.){3}[0-9]{1,3}$/', $__check__IP)) {
 	define("USER_IP",$__check__IP);
 }
 else {
@@ -22,7 +22,7 @@ else {
 
 define("Home_Path","C:/Users/User/Documents/GitHub/");
 define("ROOT_PATH","C:/Users/User/Documents/GitHub/".$website."_c/");
-define("JAVA_PATH","D:/work/".$sergrup."/".$serdata."/");
+define("JAVA_PATH","C:/Users/User/Documents/Github/sg-local/".$serdata."/");
 
 define("FUNC_PATH",ROOT_PATH."func/");
 define("Conf_Path",ROOT_PATH."conf/");

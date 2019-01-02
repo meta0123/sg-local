@@ -24,8 +24,8 @@ define("Data_Path",pathHome."data/");
 define("SuperGateway",pathHome."pub/SuperGateway.php");
 
 define("pathJava","C:/Users/User/Documents/GitHub/".$service."/");
-define("pathTxt","D:/work/".$sergrup."/".$serdata."/data/");
-define("pathBin","D:/work/".$sergrup."/".$serdata."/starbin/");
+define("pathTxt","C:/Users/User/Documents/Github/sg-local/".$serdata."/data/");
+define("pathBin","C:/Users/User/Documents/Github/sg-local/".$serdata."/starbin/");
 define("urlWF","http://".$serveip."/sg/".$service."/");//writefile url
 define("urlStarBin",urlWF."SG1_w/starbin/");//writefile path
 
