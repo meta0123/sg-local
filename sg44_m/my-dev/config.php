@@ -31,4 +31,7 @@ $PtToComp = 1; // 100%
 $flgWebMail = false;
 $flgNoLogo  = false;
 
+require_once(__DIR__ . '/autoload.php');
+require_once(FUNC_PATH ."classes/helper.php");
+DataCache::init(require(__DIR__ . '/datacache.php'));
 ?>
