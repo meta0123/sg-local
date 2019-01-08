@@ -1,0 +1,58 @@
+[
+    {
+        "auth": "",
+        "host": "127.0.0.1",
+        "keys_pattern": "*",
+        "name": "bgg3",
+        "namespace_separator": ":",
+        "port": 6379,
+        "ssh_port": 22,
+        "timeout_connect": 60000,
+        "timeout_execute": 60000
+    },
+    {
+        "auth": "",
+        "host": "192.168.99.72",
+        "keys_pattern": "*",
+        "name": "sg72",
+        "namespace_separator": ":",
+        "port": 6379,
+        "ssh_host": "203.208.31.112",
+        "ssh_password": "kp@99pvz#",
+        "ssh_port": 22,
+        "ssh_user": "weber",
+        "ssl": false,
+        "timeout_connect": 60000,
+        "timeout_execute": 60000
+    },
+    {
+        "auth": "",
+        "host": "192.168.99.71",
+        "keys_pattern": "*",
+        "name": "sg71",
+        "namespace_separator": ":",
+        "port": 6379,
+        "ssh_host": "203.208.31.112",
+        "ssh_password": "kp@99pvz#",
+        "ssh_port": 22,
+        "ssh_user": "weber",
+        "ssl": false,
+        "timeout_connect": 60000,
+        "timeout_execute": 60000
+    },
+    {
+        "auth": "",
+        "host": "192.168.99.70",
+        "keys_pattern": "*",
+        "name": "sg70",
+        "namespace_separator": ":",
+        "port": 6379,
+        "ssh_host": "203.208.31.112",
+        "ssh_password": "kp@99pvz#",
+        "ssh_port": 22,
+        "ssh_user": "weber",
+        "ssl": false,
+        "timeout_connect": 60000,
+        "timeout_execute": 60000
+    }
+]
