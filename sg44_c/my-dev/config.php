@@ -31,6 +31,8 @@ define("Conf_Path",ROOT_PATH."conf/");
 define("Data_Path",ROOT_PATH."data/");
 define("JAVA_TXT_DATA",JAVA_PATH."data/");
 define("starComb",JAVA_PATH."comb/");//writefile url
+
+define("DEV_MODE", true); // 本機外補
 /*
 define("c_GupRto",Home_Path."sg17_c/data/c_guprto.php");
 define("a_GupRto",Home_Path."sg17_a/data/a_guprto.php");
