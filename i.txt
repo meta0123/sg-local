@@ -1,0 +1,8 @@
+sg44_w
+sg44_c
+javaserver44
+sg-service
+sg-server-manager
+sg44_m
+sg44_a
+sg_w_v1
