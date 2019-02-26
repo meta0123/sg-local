@@ -8,8 +8,8 @@ include_once(SERVER_ROOT."/func/classes/db_mysql.class.php");
 //$ServerHost=($_SERVER["HTTP_X_FORWARDED_HOST"]!='')? $_SERVER["HTTP_X_FORWARDED_HOST"]:$_SERVER["HTTP_HOST"];
 //$UserIP=($_SERVER["HTTP_X_FORWARDED_FOR"]!='')? $_SERVER["HTTP_X_FORWARDED_FOR"]:$_SERVER["REMOTE_ADDR"];
 
-define("SC_URL", "http://javaserver44.local.com/SG1");
-define("SC_URLT","C:/Users/User/Documents/GitHub/".$java_path_name);
+define("SC_URL", "javaserver44.local.com/SG1");
+define("SC_URLT","C:/Users/User/Documents/GitHub/{$java_path_name}/SG1");
 define("siteRole", 0); //0公司 1代理商 2會員
 
 $dbname = 'sg44';
