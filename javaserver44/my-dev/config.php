@@ -1,7 +1,7 @@
 <?php
 	$CONNIP = "192.168.88";
-	$linkR=mysql_pconnect("127.0.0.1","root","");
-	$linkW=mysql_pconnect("127.0.0.1","root","");
+	$linkR=mysql_pconnect("localhost","root","");
+	$linkW=mysql_pconnect("localhost","root","");
 
 	define("C_WEB","SG1_w");
 	define("A_WEB","SG1_c");

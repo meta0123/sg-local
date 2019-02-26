@@ -12,7 +12,7 @@ return array(
         'enabled' => 1,
         'db' => 0,
         'name' => "sg{$sg}",
-        'host' => '127.0.0.1',
+        'host' => 'localhost',
         'port' => 6379,
     ),
 
@@ -27,8 +27,8 @@ return array(
     # 是否使用 DB 當資料快取 ( DB的諸多限制, 停止使用)
     'DBCache' => array(
         'enabled' => 0,
-        'host' => '127.0.0.1',
-        'dbname' => 'sg0',
+        'host' => 'localhost',
+        'dbname' => 'sg' . $sg,
         'user' => 'root',
         'password' => '',
         'character' => 'UTF8',
